@@ -1,11 +1,17 @@
     /* font connect */
     @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-
+    /* * {
+        border: 1px solid red;
+       }
+       
+       body {
+        border: 3px dashed green;
+       } */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -22,6 +28,7 @@ body{
     color: white;
     text-align: center;
     font-weight: 800;
+
 }
 .share-description{
     font-size: 15px;
@@ -34,7 +41,7 @@ body{
 
 /* navber style */
 .nav-container,.head-banner-container img{
-    background-image: linear-gradient(to bottom,#141414,#222222,#141414);
+    /* background-image: linear-gradient(to bottom,#141414,#222222,#141414); */
     /* background-image: linear-gradient(360.00deg,rgb(17,17,17),rgba(119,119,119,0)100%); */
 }
 header,main{
@@ -48,12 +55,13 @@ header,main{
     justify-content: space-between;
     align-items: center;
     margin-top: 3.3rem;
-    /* border: 2px solid red; */
+  
 }
 .nav-logo-style{
     font-size: 35px;
     font-weight: 800;
     color: rgb(254, 71, 42);
+    
 }
 .nav-option ul{
     display: flex;
@@ -61,7 +69,8 @@ header,main{
     gap: 3rem;
     font-size: 18px;
     font-weight: 400;
-    /* border: 2px solid green; */
+
+    
 }
 .nav-option li{
     
@@ -73,38 +82,64 @@ header,main{
     color: white;
     cursor: pointer;
     padding: 10px 14px;
+    border: none;
 }
+
 
 /* banner section styles */
 .banner-img-content{
     
     position: relative;
+    
 }
 .banner-div-1{
     position: absolute;
-    top: 120%;
-    left: 50%;
+    bottom: 10%;
+    /* top: 120%;
+    left: 50%; */
     padding: 0.8rem 1rem;
     color: white;
+    
 }
 .banner-div-2{
     position: absolute;
-    top: 70%;
-    left: 80%;
+    top: 0%;
+    right: 10%;
     padding: 0.8rem 1rem;
     color: white;
+    /* border: 2px solid turquoise; */
 }
+
+
+
+
+
 .btn-1{
     font-size: 700;
     color: white;
     background-color: rgba(255, 255, 255, 0.1);
- padding: 0.5rem 0.9rem;
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+ /* border: 2px solid violet; */
+}
+.btn-1 h4{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+.btn-2 h4{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 0.5rem;
 }
 .btn-2{
     font-size: 700;
     color: white;
     background-color: rgba(255, 255, 255, 0.1);
     padding: 0.7rem 1rem;
+    border-radius: 12px;
 }
 /* banner parent */
 .head-banner-container{
@@ -112,17 +147,16 @@ header,main{
     margin-top:7rem;
     /* border: 2px solid salmon; */
 }
-.banner-text-content{
 
-}
 /*  text and button related style  */
 .banner-header{
+    
     margin-top: 3.5rem;
     font-size: 50px;
     font-weight: 900;
     color: white;
-    /* border: 2px solid yellow; */
     text-align: left;
+    /* border: 2px solid yellow; */
 }
 .styl{
     font-size: 70px;
@@ -137,16 +171,6 @@ header,main{
     text-align: left;
     margin-top: 1.5rem;
     margin-bottom: 1.8rem;
-}
-/* button parent */
-.btn-cotainer{
-
-}
-.copyright{
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.5);
 }
 .btn-primary{
     background-color: rgb(230, 83, 60);
@@ -168,6 +192,15 @@ header,main{
     font-size: 16px;
     font-weight: 600px;
 }
+
+.copyright{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    /* border: 2px solid springgreen; */
+}
+
 /* main part 1 change your habit style */
 /* parent */
 .change-your-habit-container{
@@ -186,26 +219,10 @@ header,main{
     border-radius: 50%;
 }
 
-.habit-img-text,.des-1{
-    color: rgba(255, 255, 255, 0.5);;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 400;
-}
-.habit-img-text,.img-1{
-    color: white;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 400;
-}
-.habit-img-text,.img-1{
-    margin-top: 0.5rem;
-    margin-bottom: 0.6rem;
-    color: white;
-    margin-right: 20px;
-    font-size: 14px;
-    font-weight: 400;
-}
+/* change your habit container  mobile responsive */
+
+
+
 /* main part 3 */
 .extra-mile-container{
     display: flex;
@@ -215,10 +232,12 @@ header,main{
 .text-extra-mile{
     margin-top: 3rem;
     margin-left: 3rem;
+    /* border: 2px solid white; */
 }
 .extra-head{
     font-size: 40px;
     color: white;
+    /* border: 2px solid springgreen; */
 }
 .extra-desc{
     font-size: 12px;
@@ -227,6 +246,7 @@ header,main{
     color: rgba(255, 255, 255, 0.5);
     margin-top: 0.9rem;
     margin-bottom: 0.9rem;
+    /* border: 2px solid white; */
 }
 .extra-mile-image img{
    width: 60%;
@@ -236,11 +256,45 @@ header,main{
     margin-left: 12rem;
     margin-right: 2.4rem;
    border-radius: 20px;
-  
+  /* border: 2px solid white; */
 }
+
+
+
+
+
+
+
+
+
+.habit-img-text,.des-1{
+    color: rgba(255, 255, 255, 0.5);;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    /* border: 2px solid slateblue; */
+}
+.habit-img-text,.img-1{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    /* border: 2px solid rgb(254, 71, 42); */
+}
+.habit-img-text,.img-1{
+    margin-top: 0.5rem;
+    margin-bottom: 0.6rem;
+    color: white;
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    /* border: 2px solid palevioletred; */
+}
+
 /* training and exesice style */
 .training-container{
     margin-top: 6.5rem;
+    /* border: 2px solid white; */
     /* border: 2px so */
 }
 .training-container img{
@@ -257,7 +311,7 @@ header,main{
     font-size: 40px;
     font-weight: 600;
     line-height: normal;
-  
+    /* border: 2px solid springgreen; */
 }
 .training-desc{
     color: rgba(255, 255, 255, 0.5);
@@ -266,7 +320,10 @@ header,main{
     font-size: 12px;
     font-weight: 400;
     line-height: normal;
+    /* border: 2px solid springgreen; */
 }
+/* training container */
+
 
 /* grid image style */
 .training-grid-image{
@@ -327,79 +384,127 @@ header,main{
     margin-top: 4rem;
     /* border: 2px solid yellow; */
 }
+
+/* mobile responsive bmi  */
 /* .team-img{
     position: relative;
 } */
 .one{
     position: relative;
+    /* border: 2px solid springgreen; */
 }
 .im1{
     font-size: 16px;
     font-weight:700;
-    top: 65%;
+
     color: white;
     position: absolute;
+    left: 15%;
+    bottom: 25%;
+    /* border: 2px solid springgreen; */
 }
 .im2{
     font-size: 16px;
     font-weight: 800;
-    top: 75%;
+    
     color: white;
     position: absolute;
+    left: 15%;
+    bottom: 18%;
+    /* border: 2px solid springgreen; */
 }
 
-
+/* hamber style  */
+.hamber{
+    display: none;
+}
+/* mobile responsive ------------------------------------------------------------------ */
+@media screen and (max-width:576px) {
+    .nav-option{
+        display: none;
+    }    
+    .hamber{
+        display: block;
+    }
+    .nav-item,.nav-logo-style{
+        font-size: 29px;
+    }
+    p{
+        /* text-align: center; */
+        font-size: 16px;
+    }
+    .banner-text-content h1{
+        font-size: 35px;
+        width: 100%;
+    }
+   
+}
+/* ------------------------------------- -----------------------------------------------------*/
 .training-footer-heading{
     font-size: 30px;
     color: white;
     margin-bottom: 1rem;
+   
 }
 .training-footer-description{
     color: rgba(255, 255, 255, 0.5);
+   
 }
 .bmi-flex{
     display: flex;
 }
 .bmi-container{
+    
     margin-top: 3rem;
- /* border: 2px solid skyblue; */
+ 
 }
 .table-create{
-    /* border: 2px solid yellowgreen; */
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
     margin-left: 4rem;
     margin-top: 3rem;
-    /* margin-right: 4rem; */
+    align-items: center;
+   
+}
+.table-create th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+   
+}
+.table-create  td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    
+    
 }
 .bmi-Chart th{
     color: white;
+   
 }
 .bmi-Chart td{
     color: rgba(255, 255, 255, 0.5);
+    
 }
-.table-create{
 
-}
 .bmi-chart-heading{
     font-size: 25px;
     margin-top: 3rem;
     margin-left: 4rem;
     color: white;
+   
 }
 .table-create table tr th td{
     padding: 0.5rem 4rem;
+   
 }
 .calculate-my-bmi{
     width: 55%;
  margin-top: 3rem;
  margin-left: 5rem;
- /* border: 2px solid red; */
+ 
 }
-.text-content-last-part{
 
-}
 .bmi-heading{
     font-size: 28px;
-
+ 
     color: white;
 }
 .tst{
@@ -420,7 +525,7 @@ header,main{
     padding: 0.9rem 1rem;
     background: rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.6);
-    /* border: 2px solid red; */
+    
 }
 .input-tag select{
     margin-top:1rem ;
@@ -434,6 +539,7 @@ header,main{
 
 .team-part-container{
     margin-top: 4rem;
+    /* border: 2px solid springgreen; */
 }
 .team-img{
     margin-top: 4rem;
@@ -441,6 +547,7 @@ header,main{
     grid-template-columns: repeat(3,1fr);
     /* filter: opacity(00.8fr); */
     filter: brightness(80%);
+    /* border: 2px solid springgreen; */
     /* filter:contrast(90%); */
     
     
@@ -451,7 +558,12 @@ header,main{
     border-radius: 20px;
     width: 75%;
     height: 85%;
+    /* border: 2px solid springgreen; */
 }
+
+/*  team mobile responsive */
+
+
 /* footer style  */
 
 .footer-conainer{
@@ -467,10 +579,9 @@ header,main{
 }
 .foter-desc{
     color: rgba(255, 255, 255, 0.5);
-
-font-size: 14px;
-font-weight: 400;
-line-height: normal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
 }
 .box-foter{
     display: flex;
@@ -496,18 +607,14 @@ line-height: normal;
     flex-direction: column;
 }
 
-/* .get-started-2{
-    width: 33%;
-    display: flex;
-    color: white;
-    border: 2px solid skyblue;
-} */
+
 .get-started-2 ul{
     width: 33%;
     color: white;
     /* display: flex; */
     margin-right: 12rem;
-    /* border: 2px solid yellow; */
+    /* border: 2px solid orange; */
     list-style: none;
     line-height: 1.7rem;
 }
+/* footer responsive */

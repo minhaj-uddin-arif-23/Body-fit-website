@@ -1,0 +1,210 @@
+@media screen and (max-width:576px) {
+  
+   .nav-item h3{
+        font-size: 42px;
+   }
+    .head-banner-container{
+        flex-direction: column;
+    }
+    .banner-img-content img{
+        width: 100%;
+    }
+   .banner-text-content h1{
+    font-size: 11vmin;
+    font-weight: 700;
+    margin-top:-3rem;
+   }
+}
+
+/*  training grid container */
+@media screen and (max-width:576px) {
+    .training-content h3{
+        font-size: 50px;
+    }
+    .training-content p{
+       
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 20px;   
+    }
+    .training-grid-image{
+        display: grid;
+        grid-template-columns: repeat(2fr 1fr);
+    }
+}
+
+/* bmi part */
+@media screen and (max-width:576px) {
+    .training-footer{
+        margin-left: 0px;
+    }
+    .training-footer h3{
+       
+        font-size: 42px; 
+        width: 120%;
+    }
+    .training-footer p{
+        font-size: 20px;
+        width: 160%;
+        height: 130%;
+        /* border: 2px solid red; */
+    }
+    .bmi-flex{
+        flex-direction: column;
+    }
+    .table-create table{
+        
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        margin-left:0px ;
+        border: 1px solid gray;
+    }
+    .table-create th{
+        font-size: 19px;
+        font-weight: 500;
+        border: 1px solid gray;
+       
+    }
+    .table-create  td{
+        color: rgba(255, 255, 255, 0.5);
+      
+        font-size: 17px;
+        font-weight: 400;
+        border: 1px solid gray;
+        
+        
+    }
+}
+
+
+/*  footer part */
+@media screen and (max-width:576px) {
+    .btn-container{
+        display: flex;
+    }
+    .box-foter{
+        text-align: left;
+        flex-direction: column;
+        font-size: 6vmin;
+        
+    }
+    .footer-content h3{
+        font-size: 80px;
+        margin-left: 1rem;
+    }
+    .footer-content{
+    
+        max-width: 700px;
+        /* border: 2px solid white; */
+        margin-left: 0rem;
+        flex-direction: column;
+        /* flex-wrap:wrap ; */
+    }
+    .foter-desc{
+        flex-direction: column;
+        /* border: 2px solid yellow; */
+        margin-left: 1.5rem;
+        font-size: 17px;
+        margin-top: 1.5rem;
+        line-height: 30px;
+    }
+    .get-started-1 h4{
+        margin-left: 1.5rem;
+        /* width: 50%; */
+        font-size: 9vmin;
+        /* border: 2px solid yellow; */
+    }
+    .get-started-1 .colmn{
+        width: 60%;
+        line-height: 30px;
+        margin-left: 1.5rem;
+        margin-top: 0rem;
+ 
+        color: gray;
+    }
+    .get-started-1 .colmn li{
+        line-height: 55px;
+    }
+    .get-started-2 h4{
+        margin-left: 1.5rem;
+        /* width: 50%; */
+        font-size: 9vmin;
+      
+        
+    }
+    .get-started-2 .colmn{
+        width: 60%;
+        line-height: 30px;
+        margin-left: 1.5rem;
+        margin-top: 0rem;
+ 
+        color: gray;
+        margin-bottom: 5rem;
+    }
+    .get-started-2 .colmn li{
+        line-height: 55px;
+    }
+    .box-box{
+        flex-direction: column;
+    }
+    .copyright{
+        margin-bottom:3rem;
+        width: 100%;
+        height: 80%;
+        margin-top: 20px;
+    }
+    
+    .copyright p{
+       font-size: 25px;
+       text-align: center;
+      
+       margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:576px) {
+ 
+    .team-text-content{
+        margin-left: 0rem;
+        /* flex-direction: column; */
+    }
+}
+@media screen and (max-width:576px) {
+    .team-img{
+        
+        margin-left: 0rem;
+         display: grid;
+         grid-template-columns: 1fr;
+        
+     }
+     .one{
+        display: flex;
+        justify-content: center;
+     }
+}
+
+@media screen and (max-width:576px) {
+    .extra-mile-container{
+        /* width:50%; */
+        flex-direction: column;
+    }
+    .extra-mile-image img{
+       width: 90%;
+       /* border: 2px solid red; */
+       margin-left: 36px;
+       /* margin-right: 10px; */
+    }
+    .text-extra-mile button{
+        width: 100%;
+        padding: 15px 20px;
+        font-size: 24px;
+    }
+}
+@media screen and (max-width:576px) {
+    .all-image-container{
+        display: block;
+        text-align: center;
+        flex-direction: column;
+    }
+}
+
+
