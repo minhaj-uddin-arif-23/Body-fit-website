@@ -1,3 +1,5 @@
+
+/* first part */
 @media screen and (max-width:576px) {
   
    .nav-item h3{
@@ -14,10 +16,64 @@
     font-weight: 700;
     margin-top:-3rem;
    }
+   .banner-text-content p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+   }
+   .habit-content p{
+        font-size: 19px;
+        line-height: 28px;
+        
+   }
+}
+
+/* calculate your bmi part */
+@media screen and (max-width:576px) {
+    .bmi-chart-heading{
+        margin-left: 0px;
+ 
+    }
+    .table-create{
+        margin-left: 0px;
+   
+    }
+    .calculate-my-bmi{
+        width: 95%;
+        margin-left:0px;
+    }
+    .input-tag input {
+       
+        width: 49%;
+        height: 20%;
+    }
+    .input-tag select {
+        width: 49%;
+        height: 20%;
+       
+    }
+    .input-tag .slt{
+        width: 120%;
+    }
+    .text-content-last-part h3{
+        font-size: 22px;
+    }
+    .text-content-last-part p{
+        font-size: 16px;
+    }
+    .btn-primary-2{
+        width: 60%;
+    }
+    .extra select{
+        width: 100%;
+       
+    }
+
 }
 
 /*  training grid container */
 @media screen and (max-width:576px) {
+    
     .training-content h3{
         font-size: 50px;
     }
@@ -28,7 +84,38 @@
     }
     .training-grid-image{
         display: grid;
-        grid-template-columns: repeat(2fr 1fr);
+        grid-template-areas: repeat(2fr 1fr);
+    }
+    .img-content img{
+        width: 70%;
+    }
+    .habit-img-text h4{
+        margin-left: 3rem;
+        font-size: 28px;
+    }
+    .habit-img-text p{
+        font-size: 18px;
+       margin-left: 6rem;
+        width: 60%;
+  
+        line-height: 20px;
+      
+    }
+    .text-extra-mile{
+        margin-left: 2px;
+    }
+    .text-extra-mile h3{
+        font-size: 42px;
+        font-weight: 800;
+    }
+    .text-extra-mile p{
+        font-size: 18px;
+        line-height: 25px;
+        font-weight: 400;
+    }
+    .team-text-content p{
+        font-size: 18px;
+        line-height: 25px;
     }
 }
 
@@ -43,9 +130,9 @@
         width: 120%;
     }
     .training-footer p{
-        font-size: 20px;
-        width: 160%;
-        height: 130%;
+        font-size: 17px;
+        width: 120%;
+        /* height: 130%; */
         /* border: 2px solid red; */
     }
     .bmi-flex{
@@ -95,14 +182,13 @@
     .footer-content{
     
         max-width: 700px;
-        /* border: 2px solid white; */
         margin-left: 0rem;
         flex-direction: column;
-        /* flex-wrap:wrap ; */
+        
     }
     .foter-desc{
         flex-direction: column;
-        /* border: 2px solid yellow; */
+     
         margin-left: 1.5rem;
         font-size: 17px;
         margin-top: 1.5rem;
@@ -110,9 +196,7 @@
     }
     .get-started-1 h4{
         margin-left: 1.5rem;
-        /* width: 50%; */
         font-size: 9vmin;
-        /* border: 2px solid yellow; */
     }
     .get-started-1 .colmn{
         width: 60%;
@@ -127,7 +211,6 @@
     }
     .get-started-2 h4{
         margin-left: 1.5rem;
-        /* width: 50%; */
         font-size: 9vmin;
       
         
@@ -172,8 +255,8 @@
     .team-img{
         
         margin-left: 0rem;
-         display: grid;
-         grid-template-columns: 1fr;
+        display: grid;
+        grid-template-columns: 1fr;
         
      }
      .one{
@@ -184,19 +267,18 @@
 
 @media screen and (max-width:576px) {
     .extra-mile-container{
-        /* width:50%; */
         flex-direction: column;
     }
     .extra-mile-image img{
-       width: 90%;
-       /* border: 2px solid red; */
-       margin-left: 36px;
-       /* margin-right: 10px; */
+       
+       width: 100%;
+       margin-left: 0px;
     }
     .text-extra-mile button{
-        width: 100%;
+        width: 95%;
         padding: 15px 20px;
         font-size: 24px;
+        margin-left: 5px;
     }
 }
 @media screen and (max-width:576px) {
@@ -208,3 +290,29 @@
 }
 
 
+/* last part responsive */
+@media  screen and (max-width:576px) {
+    .container-extra{
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(1fr ,1fr);
+    }
+    .container-extra img{
+       margin-left: 3rem;
+        margin-top: 1.2rem;
+        width: 80%;
+    }
+    .container-extra h4{
+        text-align: center;
+    }
+    .container-extra p{
+        text-align: center;
+    }
+   .link a{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 10px 20px;
+   }
+}
