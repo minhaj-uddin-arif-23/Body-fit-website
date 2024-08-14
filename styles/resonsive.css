@@ -3,18 +3,22 @@
 @media screen and (max-width:576px) {
   
    .nav-item h3{
-        font-size: 42px;
+        font-size: 46px;
    }
     .head-banner-container{
+        margin-top: 7rem;
+        /* border: 2px solid white; */
         flex-direction: column;
+        
     }
     .banner-img-content img{
         width: 100%;
     }
    .banner-text-content h1{
-    font-size: 11vmin;
-    font-weight: 700;
+    font-size: 50px;
+    font-weight: 800;
     margin-top:-3rem;
+    /* border: 2px solid red; */
    }
    .banner-text-content p{
     font-size: 18px;
@@ -26,6 +30,7 @@
         line-height: 28px;
         
    }
+  
 }
 
 /* calculate your bmi part */
@@ -69,6 +74,26 @@
        
     }
 
+}
+@media screen and (max-width:576px) {
+    .nav-option{
+        display: none;
+    }    
+    .hamber{
+        display: block;
+    }
+    .nav-item,.nav-logo-style{
+        font-size: 29px;
+    }
+    p{
+        /* text-align: center; */
+        font-size: 16px;
+    }
+    .banner-text-content h1{
+        font-size: 35px;
+        width: 100%;
+    }
+   
 }
 
 /*  training grid container */
@@ -122,10 +147,10 @@
 /* bmi part */
 @media screen and (max-width:576px) {
     .training-footer{
-        margin-left: 0px;
+        margin-left: 1px;
     }
     .training-footer h3{
-       
+        margin-left: 1px;
         font-size: 42px; 
         width: 120%;
     }
@@ -180,11 +205,9 @@
         margin-left: 1rem;
     }
     .footer-content{
-    
         max-width: 700px;
         margin-left: 0rem;
         flex-direction: column;
-        
     }
     .foter-desc{
         flex-direction: column;
@@ -248,7 +271,7 @@
  
     .team-text-content{
         margin-left: 0rem;
-        /* flex-direction: column; */
+        
     }
 }
 @media screen and (max-width:576px) {
@@ -287,6 +310,16 @@
         text-align: center;
         flex-direction: column;
     }
+    .btn-primary-3{
+        background-color: rgb(230, 83, 60);
+        padding: 1rem 5rem;
+        border-radius: 50px;
+        color: white;
+        border: none;
+        font-size: 16px;
+        margin-right:5px ;
+        cursor: pointer;
+    }
 }
 
 
@@ -314,5 +347,61 @@
     margin: 0 auto;
     width: fit-content;
     padding: 10px 20px;
+   }
+   .im1{
+    font-size: 16px;
+    font-weight:800;
+    
+    color: white;
+    position: absolute;
+    left: 15%;
+    bottom: 29%;
+ 
+}
+.im2{
+    font-size: 16px;
+    font-weight: 800;
+    
+    color: white;
+    position: absolute;
+    
+    left: 16%;
+    bottom: 20%;
+   }
+   .banner-img-content{
+    position: relative;
+}
+.banner-div-1{
+    display: flex;
+    position: absolute;
+    left: -30%;
+    bottom: 10%;
+    padding: 1rem 1rem;
+    color: white;
+   
+}
+.icon{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: red;
+    margin-top: 1.5rem;
+    left: 35%;
+    position:absolute;
+}
+.red-txt{
+    margin-left: 5rem;
+    
+}
+.red-txt button{
+    padding: 1rem 3rem;
+    border: none;
+
+}
+.play-icon{
+    display: block;
+    margin-left: 23px;
+    bottom: 45%;
+    position: absolute;
    }
 }
